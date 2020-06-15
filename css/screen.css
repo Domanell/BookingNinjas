@@ -4353,7 +4353,7 @@ body{padding:0;margin:0;background:url(../img/main-bg.jpg) no-repeat center -602
 .customer-top__img img{float:none;}
 }
 .customer-top-left{padding-bottom:100px;padding-top:60px;}
-.advantage-top{height:auto;background:#f6f6f6;}
+.advantage-top{height:470px;background:#f6f6f6;}
 .advantage-top:before, .advantage-top:after{display:none;}
 .advantage-top .about-page-top__img{float:right;}
 .advantage-top h1:after{display:none;}
@@ -4899,137 +4899,30 @@ body{padding:0;margin:0;background:url(../img/main-bg.jpg) no-repeat center -602
 .login-page-bottom .button i{padding:0 15px 0 0;}
 
 
-
 /* 404 page */
-
-.notfound-page-top {
-  background: url(../img/notfound-page-top-bg.jpg) no-repeat center;
-  padding-top: 145px;
-  padding-bottom: 145px;
-}
-.notfound-page-top h1 {
-  font-size: 55px;
-  font-weight: 700;
-  letter-spacing: 0.55px;
-  color: #373737;
-  padding-bottom: 15px;
-}
-.notfound-page-top p {
-  font-size: 20px;
-  font-weight: 300;
-  line-height: 2.25;
-  letter-spacing: 1px;
-  color: #282828;
-  padding-bottom: 15px;
-}
-.notfound-page-top p span {
-  font-size: 30px;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 1.5px;
-  color: #232222;
-}
-.notfound-page-top .button {
-  letter-spacing: 0.9px;
-  padding: 22px 63px;
-  border-radius: 13px;
-  /* box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1); */
-} 
-.notfound-page-form-title {
-  padding-top: 78px;
-  padding-bottom: 136px;
-  background-color: #ececec;
-}
-.notfound-page-form-title h2 {
-  padding-bottom: 23px;
-  font-size: 36px;
-  font-weight: 700;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: 1.8px;
-  color: #212020;
-}
-.notfound-page-form-title p {
-  font-size: 18px;
-  font-weight: 300;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: 0.9px;
-  color: #212020;
-}
-.notfound-page-form {
-  background-image: url(../img/notfound-page-form-bg.png);
-  background-size: auto;
-  background-repeat: no-repeat;
-  background-position: top -33% left 25%;
-  padding-bottom: 80px;
-}
-.notfound-page-form .wrapper {
-  padding: 26px 37px 38px;
-  margin-top: -80px;
-  border-radius: 7px;
-  background-color: #fff;
-  text-align: center;
-}
-.notfound-page-form .wrapper .privacy {
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.88;
-  letter-spacing: 0.8px;
-  color: #1bafff;
-}
-.notfound-page-form .contact-form {
-  text-align: left;
-  padding-bottom: 20px;
-}
-.notfound-page-form .contact-form label {
-  padding-left: 5px;
-  font-size: 16px;
-  font-weight: 500;
-  font-style: normal;
-  line-height: 2.81;
-  letter-spacing: 0.8px;
-  color: #414141;
-}
-.notfound-page-form .contact-form input,
-.notfound-page-form .contact-form textarea {
-  width: 100%;
-  outline: none;
-  border: none;
-  box-shadow: 0px 1px 5px 0 rgba(0, 0, 0, 0.21);
-  resize: none;
-  color: #414141;
-  font-style: normal;
-  line-height: 1.35;
-  letter-spacing: 0.8px;
-}
-.notfound-page-form .contact-form input {
-  padding: 14px 0;
-  font-size: 24px;
-  font-weight: 500;
-  margin-bottom: 15px;
-}
-.notfound-page-form .contact-form textarea {
-  margin-bottom: 39px;
-  font-weight: 300;
-  font-size: 16px;
-}
-.notfound-page-form .contact-form .button {
-  display: block;
-  margin: 0 auto;
-  padding: 21px 50px;
-  border-radius: 13px;
-  /* box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);  */
-  letter-spacing: 0.9px;
-}
-
+.notfound-page-top{background:url(../img/notfound-page-top-bg.jpg) no-repeat center;padding-top:145px;padding-bottom:145px}
+.notfound-page-top h1{font-size:55px;font-weight:700;letter-spacing:.55px;color:#373737;padding-bottom:15px}
+.notfound-page-top p{font-size:20px;font-weight:300;line-height:2.25;letter-spacing:1px;color:#282828;padding-bottom:15px}
+.notfound-page-top p span{font-size:30px;font-weight:700;line-height:normal;letter-spacing:1.5px;color:#232222}
+.notfound-page-top .button{letter-spacing:.9px;padding:22px 63px;border-radius:13px}
+.notfound-page-form-title{padding-top:78px;padding-bottom:136px;background-color:#ececec}
+.notfound-page-form-title h2{padding-bottom:23px;font-size:36px;font-weight:700;font-stretch:normal;font-style:normal;line-height:normal;letter-spacing:1.8px;color:#212020}
+.notfound-page-form-title p{font-size:18px;font-weight:300;font-stretch:normal;font-style:normal;line-height:normal;letter-spacing:.9px;color:#212020}
+.notfound-page-form{background-image:url(../img/notfound-page-form-bg.png);background-size:auto;background-repeat:no-repeat;background-position:top -33% left 25%;padding-bottom:80px}
+.notfound-page-form .wrapper{padding:26px 37px 38px;margin-top:-80px;border-radius:7px;background-color:#fff;text-align:center}
+.notfound-page-form .wrapper .privacy{font-size:16px;font-weight:500;line-height:1.88;letter-spacing:.8px;color:#1bafff}
+.notfound-page-form .contact-form{text-align:left;padding-bottom:20px}
+.notfound-page-form .contact-form label{padding-left:5px;font-size:16px;font-weight:500;font-style:normal;line-height:2.81;letter-spacing:.8px;color:#414141}
+.notfound-page-form .contact-form input,.notfound-page-form .contact-form textarea{width:100%;outline:none;border:none;box-shadow:0 1px 5px 0 rgba(0,0,0,0.21);resize:none;color:#414141;font-style:normal;line-height:1.35;letter-spacing:.8px}
+.notfound-page-form .contact-form input{padding:14px 0;font-size:24px;font-weight:500;margin-bottom:15px}
+.notfound-page-form .contact-form textarea{margin-bottom:39px;font-weight:300;font-size:16px}
+.notfound-page-form .contact-form .button{display:block;margin:0 auto;padding:21px 50px;border-radius:13px;letter-spacing:.9px}
 @media only screen and (max-width: 992px) {
-  .notfound-page-top {
-    background-position: left;
-    text-align: center;
-  }
+.notfound-page-top{background-position:left;text-align:center}
 }
 
-
+/* Advantage page */
+.advantage-content{padding-top:60px}
+.advantage-top__video{border-radius:24px}
+.advantage-top__video .video__img:before{display:none}
+/* Also changed heiht for ".advantage-top" from "auto" to "470px" (line 4356) */
